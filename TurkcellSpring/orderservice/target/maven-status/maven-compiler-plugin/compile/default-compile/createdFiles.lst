@@ -1,0 +1,12 @@
+com/turkcell/orderservice/entities/Order.class
+com/turkcell/orderservice/dtos/requests/CreateOrderRequest$CreateOrderRequestBuilder.class
+com/turkcell/orderservice/config/WebClientConfig.class
+com/turkcell/orderservice/dtos/responses/CreatedOrderResponse.class
+com/turkcell/orderservice/controllers/OrdersController.class
+com/turkcell/orderservice/services/OrderManager.class
+com/turkcell/orderservice/dtos/requests/CreateOrderRequest.class
+com/turkcell/orderservice/repositories/OrderRepository.class
+com/turkcell/orderservice/OrderserviceApplication.class
+com/turkcell/orderservice/dtos/responses/CreatedOrderResponse$CreatedOrderResponseBuilder.class
+com/turkcell/orderservice/entities/Order$OrderBuilder.class
+com/turkcell/orderservice/services/OrderService.class

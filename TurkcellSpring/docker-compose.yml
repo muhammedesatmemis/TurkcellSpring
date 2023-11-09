@@ -1,0 +1,30 @@
+services:
+  discovery-server:
+    image: muhammedesatmemis/discoveryserver
+    ports:
+      - 8761:8761
+    mem_limit: 700m
+    depends_on:
+      - keycloak
+
+  keycloak:
+    image: quay.io/keycloak/keycloak
+    ports:
+      - 8080:8080
+    mem_limit: 700m
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    command:
+      - start-dev
+  orderservice:
+    image: muhammedesatmemis/orderservice
+    ports:
+      - 8082:8082
+    mem_limit: 700m
+
+  productservice:
+    image: muhammedesatmemis/productservice
+    ports:
+      - 8083:8083
+    mem_limit: 1000m

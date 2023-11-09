@@ -1,0 +1,7 @@
+service discovery 26.10.2023 ders başlagıç konusu
+lb = load balance
+predicates, filtreleme yapıyor. http isteğini
+https://cloud.spring.io/spring-cloud-gateway/multi/multi_gateway-request-predicates-factories.html
+
+css dosyasını almak (euraka) için ek route yazıldı
+# kullan?c? abc gönderdi ben bunu order serviceine /orders diye

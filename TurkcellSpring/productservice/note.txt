@@ -1,0 +1,4 @@
+veri tabanı ismi application properties de
+önce mongodb de query çalışıyormu diye bak, sonra repository ye yaz
+Derived quary method, mongodbde de çalışıyor
+json tek tırnak, çift tırnak fark etmiyor, queryde tek tırnak koy
